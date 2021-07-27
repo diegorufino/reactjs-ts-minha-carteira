@@ -20,7 +20,7 @@ const HistoryFinanceCard: React.FC<IHistoryFinanceCard> = ({
             <Tag color={tagColor} />
             <div>
                 <span>{title}</span>
-                <span>{subtitle}</span>
+                <small>{subtitle}</small>
             </div>
             <h3>{amount}</h3>
         </Container>
